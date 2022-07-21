@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.container {
+   width: 1000px; 
+   margin: 30px auto; 
+   box-shadow: 0 0 30px #5e6464;  
+}
+h2{
+    font-size: 16px;
+}
+h3{
+    font-size: 16px;
+}
+img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.hero {
+   
+    background-image: url(/images/kolkata-victoria.webp);
+    background-size: cover;
+    padding: 20px;
+    color: #074343;
+    text-shadow: 0 0 20px #fff;
+    height: 50vh;
+}
+
+.hero-intro {
+    width: 600px;
+    margin: 0 auto;
+}
+.place-img {
+    align-self: center; 
+    border-radius: 50%;
+}
+
+.places-intro {
+    background: #def7f9;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.top-places {
+    display: flex;
+    justify-content: center;
+}
+.top-place {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.guide-card {
+     padding: 10px 0;
+}
+
+
+.guide-intro {
+    background: #A8DADC;
+    color: #457B9D;
+    font-size: 14px;
+    text-shadow: 0 0 1px #457B9D;
+    width: 300px;
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 10px;
+    border-bottom: 5px solid  #1D3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guide-img{
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+}
